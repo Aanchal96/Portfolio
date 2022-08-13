@@ -20,7 +20,7 @@ a {
     color: #495057;
 }
 
-.header .overlay {
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -249,12 +249,54 @@ footer {
 
 
 section.has-bg-img {
-    background-image: url(../images/bg.png);
+    background-image: url(../images/bg-img-2.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 450px;
+    min-height: 200px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
+
+  section.contact-heading h1 {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+
+  .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.8rem + 2px);
+    padding: 0.4rem 0.78rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.2rem;
+    -webkit-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+ }
+  
+
+#contact .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#contact .content h1 {
+    font-size: 3rem;
+    padding: 20px 0;
+}
+
+#contact .container {
+    max-width: 1000px;
+    margin: auto;
+}
