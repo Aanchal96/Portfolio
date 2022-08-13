@@ -172,9 +172,14 @@ nav .menu-item > img {
     max-width: 1000px;
     margin: auto;
   }
+  .work-list div {
+    margin-bottom: 30px;
+  }
 
-  .work-list img{
-    width: 400px;
+  .work-list img {
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
   }
 
   .text-center {
@@ -299,4 +304,10 @@ section.has-bg-img {
 #contact .container {
     max-width: 1000px;
     margin: auto;
+}
+
+
+.work-list h2 {
+  font-size: 3rem;
+  padding: 30px 0;
 }
