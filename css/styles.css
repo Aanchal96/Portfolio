@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap");
+html, body {
+    background-color: #fff;
+    font-family: "Ubuntu";
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: 20px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #495057;
+}
+
+.header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  .header .header-content {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    text-align: ‌ center;
+    color: #fff;
+  }
+
+  .header {
+    background: #efefef url(../images/bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    position: relative;
+    height: 598px;
+    position: relative;
+  }
+  
+nav {
+    background-color: transparent;
+    display: flex;
+    transform: translateX(0%);
+}
+nav > span {
+    flex-grow: 1;
+}
+nav > ul {
+    display: inline-flex;
+}
+nav > ul > li {
+    list-style: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.menu-item {
+    text-decoration: none;
+}
+
+.menu-item > span {
+    font-size: 1.4rem !important;
+}
+
+nav .menu-item {
+    padding: 0 0 10px 0;
+    display: flex;
+    align-items: center;
+    border-bottom: transparent 3px solid;
+    transition: border-bottom-color 500ms;
+}
+
+nav .menu-item:hover {
+    border-bottom: #6AF3D8 3px solid;
+}
+
+nav .menu-item > img {
+    height: 30px;
+    width: 30px;
+    margin: 0 10px 0 0;
+}
+
+
+
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #495057;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.4rem 0.78rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+
+.btn:hover {
+    color: #495057;
+    text-decoration: none;
+  }
+
+
+.btn-primary {
+    color: #212529;
+    background-color: #FAD02C;
+    border-color: #FAD02C;
+  }
+  
+  .btn-primary:hover {
+    color: #212529;
+    background-color: #f9c807;
+    border-color: #edbe06;
+  }
+  .about {
+    background-color: rgb(234, 240, 252);
+    padding: 60px 0;
+  }
+.about div {
+
+    max-width: 1000px;
+    margin: auto;
+}
+.about h2 {
+    font-size: 3rem;
+    padding: 30px 0;
+}
+  .about p {
+    padding: 20px;
+    background-color: #fff;
+  }
+
+  .w-100 {
+    width: 100%;
+  }
+
+  .grid {
+    display: grid;
+    gap: 10px;
+  }
+
+  .column-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+  .column-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .work-list {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .work-list img{
+    width: 400px;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .p-20 {
+    padding: 20px;
+  }
+
+  .mt-10 {
+    margin-top: 10px;
+  }
+.recommandation {
+    background-color: rgb(234, 240, 252);
+}
+.recommandation > div {
+    max-width: 1000px;
+    margin: 60px 30px;
+    margin: auto;
+}
+
+.recommandation h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 30px;
+}
+
+.testmonial-wrapper {
+    background: #FAD02C;
+    box-shadow: 0 2px 5px 0 rgba(173, 181, 189, 0.4) !important;
+    border-radius: 0.2rem;
+    padding: 0 20px 20px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+  
+  .testmonial-wrapper img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    -webkit-transform: translateY(-45px);
+        -ms-transform: translateY(-45px);
+            transform: translateY(-45px);
+    background: white;
+    padding: 20px;
+    border: 3px solid;
+  }
+  
+  .testmonial-wrapper .title {
+    margin-top: -40px;
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+footer .social-icons i {
+    font-size: 2rem;
+    margin: 0 20px;
+}
+
+footer {
+    padding: 50px;
+}
+
+
+section.has-bg-img {
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 450px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
